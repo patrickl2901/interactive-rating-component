@@ -23,7 +23,7 @@ function Rating() {
   return isSubmitted ? (
     <ThankYou rating={selectedRating} />
   ) : (
-    <div className="rating">
+    <section className="rating">
       <div className="icon-container">
         <img src={iconStar} alt="Star" />
       </div>
@@ -71,7 +71,7 @@ function Rating() {
           SUBMIT
         </button>
       </div>
-    </div>
+    </section>
   );
 }
 

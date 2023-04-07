@@ -4,7 +4,7 @@ import "./ThankYou.css";
 
 function ThankYou(props) {
   return (
-    <div className="thank-you">
+    <section className="thank-you">
       <img src={thankYouImg} alt="Thank You" />
       <div className="selected-rating">
         You selected {props.rating} out of 5
@@ -16,7 +16,7 @@ function ThankYou(props) {
           more support, don't hesitate to get in touch!
         </p>
       </div>
-    </div>
+    </section>
   );
 }
 

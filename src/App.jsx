@@ -5,7 +5,9 @@ import ThankYou from "./components/ThankYou";
 function App() {
   return (
     <div className="App">
-      <Rating />
+      <main>
+        <Rating />
+      </main>
     </div>
   );
 }
